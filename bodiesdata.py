@@ -48,7 +48,8 @@ paramsjson = {
             "joburldata" : {
                 "itemselect":""
             },
-            "paginate" : False
+            "paginate" : True,
+            "paginatelinkselect" : "div#content p.pager span.stranky a.next"
         },
     "UV" :
         {
@@ -128,7 +129,7 @@ paramsjson = {
             "joburldata" : {
                 "itemselect":""
             },
-            "paginate" : False
+            "paginate" : False,
         },
     "MMR" :
         {
