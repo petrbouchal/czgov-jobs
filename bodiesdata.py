@@ -48,8 +48,7 @@ paramsjson = {
             "joburldata" : {
                 "itemselect":""
             },
-            "paginate" : True,
-            "paginatelinkselect" : "div#content p.pager span.stranky a.next"
+            "paginate" : False
         },
     "UV" :
         {
@@ -129,7 +128,7 @@ paramsjson = {
             "joburldata" : {
                 "itemselect":""
             },
-            "paginate" : False,
+            "paginate" : False
         },
     "MMR" :
         {
@@ -276,7 +275,7 @@ paramsjson = {
             },
             "separateurl" : True,
             "joburldata" : {
-                "itemselect" : "div.region table + a"
+                "itemselect" : "div.region a.OKdistinct2.noPrint"
             },
             "paginate" : False
         },
@@ -299,5 +298,3 @@ paramsjson = {
             "paginatelinkselect" : "div.nabidkaPrace div.pagination a[rel=next]"
         }
 }
-
-

@@ -15,9 +15,9 @@ __author__ = 'petrbouchal'
 from bodiesdata import paramsjson as minparameters
 # Loop
 
-activedepts = ['MPO', 'MPSV', 'UV', 'MZd', 'MSMT', 'MF', 'MMR', 'MV', 'MZe', 'MK', 'MSp', 'MO', 'MD', 'MZV', 'CSSZ',
-               'FS']
-# activedepts = ['UV']
+activedepts = ['MPO', 'MPSV', 'UV', 'MZd', 'MSMT', 'MF', 'MMR', 'MV', 'MZe', 'MK', 'MSp',
+               'MO', 'MD', 'MZV', 'CSSZ','FS','UP']
+# activedepts = ['UP']
 
 jobsallbodies = []
 for dept in activedepts:
