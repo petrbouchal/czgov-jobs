@@ -60,9 +60,9 @@ def scrapejobs(timestamp, bodydata):
     if bodydata['jobtitledata']['additionaltitletext']:
         additionaltexts = page.select(bodydata['jobtitledata']['additionaltextselect'])
         for count in range(0, len(jobs), 1):
-            jobs[count].contents = jobs[count].contents[0] + ', ' + additionaltexts[count].contents[0]
+            jobs[count].contents = jobs[count].contents[0].strip() + ', ' + additionaltexts[count].contents[0].strip()
     else:
-        for job in jobs: job.contents = job.contents[0]
+        for job in jobs: job.contents = job.contents[0].strip()
 
     for job in jobs:
         fulljoburl = completeurl(bodydata['jobsurl'], job['href'])
