@@ -275,7 +275,7 @@ paramsjson = {
             },
             "separateurl" : True,
             "joburldata" : {
-                "itemselect" : "div.region table ~ a.OKdistinct2.noPrint"
+                "itemselect" : "div.region div div div[id] a.OKdistinct2.noPrint"
             },
             "paginate" : False
         },
