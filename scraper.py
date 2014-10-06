@@ -15,9 +15,9 @@ __author__ = 'petrbouchal'
 from bodiesdata import paramsjson as minparameters
 # Loop
 
-# activedepts = ['MPO', 'MPSV', 'UV', 'MZd', 'MSMT', 'MF', 'MMR', 'MV', 'MZe', 'MK', 'MSp',
-#                'MO', 'MD', 'MZV', 'CSSZ','FS','UP','NKU']
-activedepts = ['UP']
+activedepts = ['MPO', 'MPSV', 'UV', 'MZd', 'MSMT', 'MF', 'MMR', 'MV', 'MZe', 'MK', 'MSp',
+               'MO', 'MD', 'MZV', 'CSSZ','FS','UP','NKU']
+# activedepts = ['UP']
 
 jobsallbodies = []
 for dept in activedepts:
@@ -43,4 +43,4 @@ db.close()
 db = litepiesql.Database('data.sqlite')
 for row in jobsallbodies:
     db.insert('data', row)
-    print(row)
+    # print(row)
