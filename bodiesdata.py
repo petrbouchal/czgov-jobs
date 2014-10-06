@@ -296,5 +296,21 @@ paramsjson = {
             },
             "paginate" : True,
             "paginatelinkselect" : "div.nabidkaPrace div.pagination a[rel=next]"
+        },
+    "NKU" :
+        {
+            "fullname" : "Nejvyšší kontrolní úřad",
+            "abbrev" : "NKU",
+            "abbrevcz" : "NKÚ",
+            "jobsurl" : "http://nku.cz/cz/kariera/nabidka-volnych-pracovnich-mist.htm",
+            "jobtitledata" : {
+                "itemselect" : "div#mother div#stredni h3 a",
+                "additionaltitletext" : False
+            },
+            "separateurl" : False,
+            "joburldata" : {
+                "itemselect" : ""
+            },
+            "paginate" : False
         }
 }
