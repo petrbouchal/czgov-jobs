@@ -16,8 +16,8 @@ from bodiesdata import paramsjson as minparameters
 # Loop
 
 activedepts = ['MPO', 'MPSV', 'UV', 'MZd', 'MSMT', 'MF', 'MMR', 'MV', 'MZe', 'MK', 'MSp',
-               'MO', 'MD', 'MZV', 'CSSZ','FS','UP','NKU']
-# activedepts = ['CSU']
+               'MO', 'MD', 'MZV', 'CSSZ','FS','UP','NKU','CSU','CzechInvest','CS-P','CS-S','CS-S2']
+# activedepts = ['CS-S','CS-P','CS-S2']
 
 jobsallbodies = []
 for dept in activedepts:
@@ -43,4 +43,4 @@ db.close()
 db = litepiesql.Database('data.sqlite')
 for row in jobsallbodies:
     db.insert('data', row)
-    print(row)
+    # print(row)

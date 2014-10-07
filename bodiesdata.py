@@ -344,5 +344,53 @@ paramsjson = {
                 "itemselect" : ""
             },
             "paginate" : False
+        },
+    "CS-P" :
+        {
+            "fullname" : "Celní správa (pracovní poměr)",
+            "abbrev" : "CS-P",
+            "abbrevcz" : "CS pracovní",
+            "jobsurl" : "http://www.celnisprava.cz/cz/volne-pracovni-pozice/Stranky/volna-pracovni-mista-u-celni-spravy.aspx",
+            "jobtitledata" : {
+                "itemselect" : "div#page div#Header div.webpart-layout-main div.bullet-list a",
+                "additionaltitletext" : False
+            },
+            "separateurl" : False,
+            "joburldata" : {
+                "itemselect" : ""
+            },
+            "paginate" : False
+        },
+    "CS-S" :
+        {
+            "fullname" : "Celní správa (služební poměr)",
+            "abbrev" : "CS",
+            "abbrevcz" : "CS služební",
+            "jobsurl" : "http://www.celnisprava.cz/cz/volne-pracovni-pozice/Stranky/volna-sluzebni-mista-u-celni-spravy.aspx",
+            "jobtitledata" : {
+                "itemselect" : "div#page div#Header div.webpart-layout-main div.bullet-list a",
+                "additionaltitletext" : False
+            },
+            "separateurl" : False,
+            "joburldata" : {
+                "itemselect" : ""
+            },
+            "paginate" : False
+        },
+    "CS-S2" :
+        {
+            "fullname" : "Celní správa (služební poměr)",
+            "abbrev" : "CS-S",
+            "abbrevcz" : "CS služební",
+            "jobsurl" : "http://www.celnisprava.cz/cz/volne-pracovni-pozice/Stranky/volna-sluzebni-mista-v-celni-sprave-vyberova-rizeni.aspx",
+            "jobtitledata" : {
+                "itemselect" : "div#page div#Header div.webpart-layout-main div.bullet-list a",
+                "additionaltitletext" : False
+            },
+            "separateurl" : False,
+            "joburldata" : {
+                "itemselect" : ""
+            },
+            "paginate" : False
         }
 }
