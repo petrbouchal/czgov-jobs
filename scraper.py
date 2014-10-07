@@ -16,8 +16,8 @@ from bodiesdata import paramsjson as minparameters
 # Loop
 
 activedepts = ['MPO', 'MPSV', 'UV', 'MZd', 'MSMT', 'MF', 'MMR', 'MV', 'MZe', 'MK', 'MSp',
-               'MO', 'MD', 'MZV', 'CSSZ','FS','UP','NKU']
-# activedepts = ['UP']
+               'MO', 'MD', 'MZV', 'CSSZ','FS','UP','NKU','CSU','CzechInvest','CS-P','CS-S','CS-S2']
+# activedepts = ['CS-S','CS-P','CS-S2']
 
 jobsallbodies = []
 for dept in activedepts:
