@@ -328,5 +328,21 @@ paramsjson = {
                 "itemselect" : ""
             },
             "paginate" : False
+        },
+    "CzechInvest" :
+        {
+            "fullname" : "CzechInvest",
+            "abbrev" : "CzechInvest",
+            "abbrevcz" : "CzechInvest",
+            "jobsurl" : "http://www.czechinvest.org/kariera",
+            "jobtitledata" : {
+                "itemselect" : "div#content div.main-spc table.actions tbody tr td h3 a",
+                "additionaltitletext" : False
+            },
+            "separateurl" : False,
+            "joburldata" : {
+                "itemselect" : ""
+            },
+            "paginate" : False
         }
 }
