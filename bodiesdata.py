@@ -312,5 +312,21 @@ paramsjson = {
                 "itemselect" : ""
             },
             "paginate" : False
+        },
+    "CSU" :
+        {
+            "fullname" : "Nejvyšší kontrolní úřad",
+            "abbrev" : "CSU",
+            "abbrevcz" : "ČSÚ",
+            "jobsurl" : "http://www.czso.cz/csu/redakce.nsf/i/volna_mista",
+            "jobtitledata" : {
+                "itemselect" : "div#content div#publikace ul li.home a",
+                "additionaltitletext" : False
+            },
+            "separateurl" : False,
+            "joburldata" : {
+                "itemselect" : ""
+            },
+            "paginate" : False
         }
 }
