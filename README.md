@@ -46,26 +46,5 @@
 - [Shiny app](http://petrbouchal.shinyapps.io/czjobs)
 - [Shiny app na webu Byrokrates](http://byrokrates.cz/praceprostat)
 
-## Documentation
-
-### Data model for input parameters
-
-Data model for dictionary entry:
-
-    'Abbrev' = [grabSubitems? (bool), # search for sub-element when iterating through jobs?
-                layer1spec (dict), #
-                layer2spec (dict),
-                itemspec (dict),
-                subitem (dict),
-                separateURLelement? (bool),
-                itemspec (dict),
-                noJobURL (bool),
-                additionalTitleText? (bool),
-                itemspec (dict),
-                paginate? (bool),
-                pagLayer1spec (dict),
-                pagLayer2spec (dict),
-                pagURLitemSpec (dict)]
-
 
 
