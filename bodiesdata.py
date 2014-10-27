@@ -183,7 +183,7 @@ paramsjson = {
             "fullname": "Ministerstvo životního prostředí",
             "abbrev": "MZP",
             "abbrevcz": "MŽP",
-            "jobsurl": "http://mzp.cz/cz/volna_mista",
+            "jobsurl": "http://mzp.jobs.cz/",
             "jobtitledata": {
                 "itemselect": "div#content div.contentMain h2 a",
                 "additionaltitletext": False
