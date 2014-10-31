@@ -5,7 +5,7 @@ import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-from lib_minscrapers import scrapejobs, scrapepages
+from lib_minscrapers import scrapejobs, scrapepages, savejobsdb
 from datetime import datetime
 
 now = datetime.now()
@@ -33,14 +33,20 @@ import sqlite3
 db = sqlite3.connect('data.sqlite')
 cursor = db.cursor()
 
-if len(cursor.execute("""SELECT name FROM sqlite_master WHERE type='table' AND name='data';""").fetchall()) == 0:
-    cursor.execute("""CREATE TABLE data
-                        (jobtitle, joburl, dept, datetime timestamp)
-                    """)
+# Create table if it doesn't exist [can be rewritten to put condition straight into SQL]
+cursor.execute("""
+                  IF NOT EXISTS data CREATE TABLE data
+                  (jobid, jobtitle, joburl, dept, firstseen timestamp, lastseen timestamp)
+               """)
+
 db.commit()
 db.close()
 
 db = litepiesql.Database('data.sqlite')
 for row in jobsallbodies:
-    db.insert('data', row)
+    # db.insert('data', row)
+    savejobsdb(row, now)
     # print(row)
+
+# possibly add code to mark up whether job is live (will need to read all jobs)
+# and if live how many days it's been up
