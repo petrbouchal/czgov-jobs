@@ -18,16 +18,15 @@ from bodiesdata import paramsjson as minparameters
 print('Starting scraper...')
 
 activedepts = ['MPO', 'MPSV', 'UV', 'MZd', 'MSMT', 'MF', 'MMR', 'MV', 'MZe', 'MK', 'MSp',
-               'MO', 'MD', 'MZV', 'CSSZ','FS','UP','NKU','CzechInvest','CS-P','CS-S','CS-S2']
-# activedepts = ['CS-S','CS-P','CS-S2']
+               'MO', 'MD', 'MZV', 'CSSZ','FS','UP','NKU','CzechInvest','CS-P','CS-S','CS-S2',
+               'CSI']
+# activedepts = ['CSI']
 
 jobsallbodies = []
 for dept in activedepts:
     # print(dept)
     jobsallbodies = jobsallbodies + scrapepages(now, minparameters[dept])
 print('Celkem nalezeno pozic: ', len(jobsallbodies))
-from pprint import pprint
-# pprint(jobsall)
 
 import litepiesql
 import sqlite3

@@ -392,5 +392,22 @@ paramsjson = {
                 "itemselect" : ""
             },
             "paginate" : False
+        },
+    "CSI" :
+        {
+            "fullname" : "Česká školní inspekce",
+            "abbrev" : "CSI",
+            "abbrevcz" : "ČŠI",
+            "jobsurl" : "http://www.csicr.cz/cz/KARIERA",
+            "jobtitledata" : {
+                "itemselect" : "article#content section.tabs article.active div.detail ul.list li h2 a",
+                "additionaltitletext" : False
+            },
+            "separateurl" : False,
+            "joburldata" : {
+                "itemselect" : ""
+            },
+            "paginate" : True,
+            "paginatelinkselect": "article.active div span.paging-buble-active + span.paging-buble-inactive a"
         }
 }
