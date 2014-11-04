@@ -2,12 +2,11 @@
 
 [![In Progress](https://badge.waffle.io/petrbouchal/czgov-jobs.svg?label=In%20Progress&title=In progress)](http://waffle.io/petrbouchal/czgov-jobs)
 
-# Volná místa 
+# Volná místa ve státní správě
 
 - skript pro stahování volných pozic z webových stránek českých ministerstev
 - velmi hrubá verze
 - optimalizováno pro morph.io
-- v současné době nestahuje MŽP 
 
 ## Documentation
 
