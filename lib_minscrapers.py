@@ -152,5 +152,3 @@ def savejobdb(row, now, tablename='data',dbname='data.sqlite'):
 
     db.commit()
     db.close()
-
-

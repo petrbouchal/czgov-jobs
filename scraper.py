@@ -42,11 +42,20 @@ cursor.execute("""
 db.commit()
 db.close()
 
+
 db = litepiesql.Database('data.sqlite')
 for row in jobsallbodies:
     # db.insert('data', row)
     savejobsdb(row, now)
     # print(row)
 
-# possibly add code to mark up whether job is live (will need to read all jobs)
-# and if live how many days it's been up
+
+# mark up whether job is live (will need to read all jobs)
+# how many days it's been up
+# the SQL to do this looks like this (each line needs to be executed separately by cursor.execute())
+"""
+update data set seenfor=round((strftime('%s',lastseen)-strftime('%s',firstseen))/60/60/12);
+update data set live=(lastseen==(select max(lastseen) from data));
+update data set latest=(seenfor==0 and live==1);
+"""
+
