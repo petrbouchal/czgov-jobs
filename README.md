@@ -1,3 +1,7 @@
+[![Ready](https://badge.waffle.io/petrbouchal/czgov-jobs.svg?label=ready&title=Ready)](http://waffle.io/petrbouchal/czgov-jobs)
+
+[![In Progress](https://badge.waffle.io/petrbouchal/czgov-jobs.svg?label=In%20Progress&title=In progress)](http://waffle.io/petrbouchal/czgov-jobs)
+
 # Volná místa 
 
 - skript pro stahování volných pozic z webových stránek českých ministerstev
