@@ -19,8 +19,8 @@ print('Starting scraper...')
 
 activedepts = ['MPO', 'MPSV', 'UV', 'MZd', 'MSMT', 'MF', 'MMR', 'MV', 'MZe', 'MK', 'MSp',
                'MO', 'MD', 'MZV', 'CSSZ','FS','UP','NKU','CzechInvest','CS-P','CS-S','CS-S2',
-               'CSI']
-# activedepts = ['CSI']
+               'CSI','MZP']
+# activedepts = ['MZP']
 
 jobsallbodies = []
 for dept in activedepts:

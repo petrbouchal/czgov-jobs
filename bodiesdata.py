@@ -185,7 +185,7 @@ paramsjson = {
             "abbrevcz": "MŽP",
             "jobsurl": "http://mzp.jobs.cz/",
             "jobtitledata": {
-                "itemselect": "div#content div.contentMain h2 a",
+                "itemselect": "div#content div.contentMain div.contentMainText div#linksList ul#g2-1 li a",
                 "additionaltitletext": False
             },
             "separateurl": False,
