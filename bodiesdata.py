@@ -245,7 +245,7 @@ paramsjson = {
                 "itemselect":""
             },
             "paginate" : True,
-            "paginatelinkselect" : "div.strankovani a:first-of-type"
+            "paginatelinkselect" : "div.strankovani span > a"
         },
     "MSp" :
         {
