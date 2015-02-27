@@ -244,8 +244,8 @@ paramsjson = {
             "joburldata" : {
                 "itemselect":""
             },
-            "paginate" : False,
-            "paginatelinkselect" : ""
+            "paginate" : True,
+            "paginatelinkselect" : "div.strankovani a:first-of-type"
         },
     "MSp" :
         {
