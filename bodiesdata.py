@@ -48,7 +48,8 @@ paramsjson = {
             "joburldata" : {
                 "itemselect":""
             },
-            "paginate" : False
+            "paginate" : True,
+            "paginatelinkselect" : "span.stranky a.next"
         },
     "UV" :
         {
