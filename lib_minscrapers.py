@@ -98,10 +98,10 @@ def scrapepages(timestamp, bodydata):
         jobsurlslist.append(getnextlink(bodydata, jobspageurl_iter))
         # use the next link on each new page, but only if the next link differs from the previous one
         # this is because on some pages the next link remains active even on the last page
-        if(jobsurlslist[-1]!=getnextlink(bodydata, jobspageurl_iter)):
-            jobspageurl_iter = getnextlink(bodydata, jobspageurl_iter)
+        if((jobsurlslist[-1]==getnextlink(bodydata, jobspageurl_iter)) & (bodydata['abbrev']=="MMR")):
+            break # restrict the non-repeat rule to MMR because in MV they do repeat but it works
         else:
-            break
+            jobspageurl_iter = getnextlink(bodydata, jobspageurl_iter)
 
     alljobslist = []
     for jobspageurl in jobsurlslist:
