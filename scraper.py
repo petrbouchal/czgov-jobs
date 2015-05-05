@@ -1,3 +1,3 @@
 __author__ = 'petr'
 
-import BeautifulSoup as bs; print(bs.__version__)
+from bs4 import BeautifulSoup; print(BeautifulSoup.__version__)
