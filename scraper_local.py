@@ -1,6 +1,6 @@
 __author__ = 'petrbouchal'
 
-execfile('./scraper_orig.py')
+execfile('./scraper.py')
 
 # read back saved links
 
