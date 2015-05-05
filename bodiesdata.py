@@ -145,7 +145,8 @@ paramsjson = {
             "joburldata" : {
                 "itemselect":""
             },
-            "paginate" : False
+            "paginate" : True,
+            "paginatelinkselect" : ""
         },
     "MSMT" :
         {
