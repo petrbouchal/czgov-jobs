@@ -146,7 +146,7 @@ paramsjson = {
                 "itemselect":""
             },
             "paginate" : True,
-            "paginatelinkselect" : ""
+            "paginatelinkselect" : "a.NextLink.Ajax"
         },
     "MSMT" :
         {
