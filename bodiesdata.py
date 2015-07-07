@@ -354,7 +354,7 @@ paramsjson = {
             "abbrevcz" : "CS pracovní",
             "jobsurl" : "http://www.celnisprava.cz/cz/volne-pracovni-pozice/Stranky/volna-pracovni-mista-u-celni-spravy.aspx",
             "jobtitledata" : {
-                "itemselect" : "div#page div#Header div.webpart-layout-main div.bullet-list a",
+                "itemselect" : "div.webpart-layout-main div.bullet-list a",
                 "additionaltitletext" : False
             },
             "separateurl" : False,
@@ -370,7 +370,7 @@ paramsjson = {
             "abbrevcz" : "CS služební",
             "jobsurl" : "http://www.celnisprava.cz/cz/volne-pracovni-pozice/Stranky/volna-sluzebni-mista-u-celni-spravy.aspx",
             "jobtitledata" : {
-                "itemselect" : "div#page div#Header div.webpart-layout-main div.bullet-list a",
+                "itemselect" : "div.webpart-layout-main div.bullet-list a",
                 "additionaltitletext" : False
             },
             "separateurl" : False,
