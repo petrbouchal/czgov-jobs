@@ -131,12 +131,29 @@ paramsjson = {
             },
             "paginate" : False
         },
-    "MMR" :
+    "MMR-S" :
         {
-            "fullname": "Ministerstvo pro místní rozvoj",
+            "fullname": "Ministerstvo pro místní rozvoj (služební)",
             "abbrev" : "MMR",
             "abbrevcz": "MMR",
-            "jobsurl": "http://www.mmr.cz/cs/Pracovni-prilezitosti/",
+            "jobsurl": "http://mmr.cz/cs/Neobsazena-mista/Sluzebni-mista",
+            "jobtitledata" : {
+                "itemselect": "div.rightPanel div.content div.VypisClanku div.Clanek div.ClanekOdkaz a",
+                "additionaltitletext" : False
+            },
+            "separateurl": False,
+            "joburldata" : {
+                "itemselect":""
+            },
+            "paginate" : True,
+            "paginatelinkselect" : "a.NextLink.Ajax"
+        },
+    "MMR-P" :
+        {
+            "fullname": "Ministerstvo pro místní rozvoj (pracovní)",
+            "abbrev" : "MMR",
+            "abbrevcz": "MMR",
+            "jobsurl": "http://mmr.cz/cs/Neobsazena-mista/Pracovni-mista",
             "jobtitledata" : {
                 "itemselect": "div.rightPanel div.content div.VypisClanku div.Clanek div.ClanekOdkaz a",
                 "additionaltitletext" : False
