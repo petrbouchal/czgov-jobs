@@ -1,12 +1,20 @@
 __author__ = 'petrbouchal'
 
-def open_checksnag(request):
+def open_withcookies(urltouse):
     import urllib2
+    import cookielib
 
-    request = urllib2.Request(url=request, headers={
+    cj = cookielib.CookieJar()
+    opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
+    request = urllib2.Request(url=urltouse, headers={
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'})
+    r = opener.open(request)
+    return r
+
+def open_checksnag(urltouse):
+    import urllib2
     try:
-        response = urllib2.urlopen(request)
+        response = open_withcookies(urltouse)
     except urllib2.HTTPError as e:
         # print(e)
         if e.getcode() == 302 and e.headers.get('Location') is not None:
