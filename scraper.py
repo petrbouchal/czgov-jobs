@@ -16,6 +16,8 @@ from bodiesdata import paramsjson as minparameters
 # Loop
 
 print('Starting scraper...')
+import bs4
+print(bs4.__version__)
 
 activedepts = ['MPO', 'MPSV', 'UV', 'MZd', 'MSMT', 'MF', 'MMR-P', 'MMR-S', 'MV', 'MZe', 'MSp',
                'MO', 'MD', 'MZV', 'CSSZ','FS','UP','NKU','CzechInvest','CS-P','CS-S','CS-S2',
