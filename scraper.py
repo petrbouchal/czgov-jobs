@@ -17,7 +17,7 @@ from bodiesdata import paramsjson as minparameters
 
 print('Starting scraper...')
 
-activedepts = ['MPO', 'MPSV', 'UV', 'MZd', 'MSMT', 'MF', 'MMR-P', 'MMR-S', 'MV', 'MZe', 'MK', 'MSp',
+activedepts = ['MPO', 'MPSV', 'UV', 'MZd', 'MSMT', 'MF', 'MMR-P', 'MMR-S', 'MV', 'MZe', 'MSp',
                'MO', 'MD', 'MZV', 'CSSZ','FS','UP','NKU','CzechInvest','CS-P','CS-S','CS-S2',
                'CSI','MZP']
 # activedepts = ['MMR-P']
