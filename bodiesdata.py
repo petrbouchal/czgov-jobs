@@ -179,7 +179,8 @@ paramsjson = {
             "joburldata" : {
                 "itemselect":""
             },
-            "paginate" : False
+            "paginate" : True,
+            "paginatelinkselect" : "div.title_perex_img_info div:nth-child(1) a[title="další stránka"]"
         },
     "MZV" :
         {
