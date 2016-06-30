@@ -180,7 +180,7 @@ paramsjson = {
                 "itemselect":""
             },
             "paginate" : True,
-            "paginatelinkselect" : "div.title_perex_img_info div:nth-of-type(1) a[title=\"další stránka\"]"
+            "paginatelinkselect" : "div.title_perex_img_info div:nth-of-type(1) a[title^=\"dal\"]"
         },
     "MZV" :
         {
