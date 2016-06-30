@@ -94,7 +94,7 @@ def scrapepages(timestamp, bodydata):
         else:
             iterpage = open_checksnag(iterfirsturl)
             iterpage = iterpage.read()
-            itersoup = BeautifulSoup(iterpage)
+            itersoup = BeautifulSoup(iterpage, "lxml")
             nextlink = itersoup.select(bodydata['paginatelinkselect'])
             if len(nextlink) == 0:
                 return False
