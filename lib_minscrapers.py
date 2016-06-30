@@ -52,7 +52,7 @@ def scrapejobs(timestamp, bodydata):
     page = open_checksnag(bodydata['jobsurl'])
     page = page.read()
     # print(page)
-    page = BeautifulSoup(page)
+    page = BeautifulSoup(page, "lxml")
     jobslist = []
 
     jobs = page.select(bodydata['jobtitledata']['itemselect'])
