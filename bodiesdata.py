@@ -306,9 +306,8 @@ paramsjson = {
             "abbrevcz" : "FS",
             "jobsurl" : "http://www.financnisprava.cz/cs/financni-sprava/volna-pracovni-mista",
             "jobtitledata" : {
-                "itemselect" : "div.attachments article header h3 a",
-                "additionaltitletext" : True,
-                "additionaltextselect" : "div.attachments article header p.subtitle"
+                "itemselect" : "div.attachments-v2 article header h3 a",
+                "additionaltitletext" : False,
             },
             "separateurl" : False,
             "joburldata" : {
