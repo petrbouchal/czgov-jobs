@@ -220,7 +220,7 @@ paramsjson = {
             "fullname": "Ministerstvo práce a sociálních věcí",
             "abbrev" : "MPSV",
             "abbrevcz": "MPSV",
-            "jobsurl": "http://www.mpsv.cz/cs/70",
+            "jobsurl": "http://www.mpsv.cz/cs/22466",
             "jobtitledata" : {
                 "itemselect": "div#articlebody div#toc ul li a",
                 "additionaltitletext" : False
