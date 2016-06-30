@@ -19,7 +19,7 @@ print('Starting scraper...')
 import bs4
 print(bs4.__version__)
 
-activedepts = ['MPO', 'MPSV', 'UV', 'MZd', 'MSMT', 'MF', 'MMR-P', 'MMR-S', 'MV', 'MZe',
+activedepts = ['MPO', 'MPSV', 'UV', 'MZd', 'MSMT', 'MMR-P', 'MMR-S', 'MV', 'MZe',
                'MO', 'MD', 'MZV', 'CSSZ','FS','UP','NKU','CzechInvest','CS-P','CS-S','CS-S2',
                'CSI']
 # activedepts = ['MMR-P']
