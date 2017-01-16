@@ -11,34 +11,4 @@ data.sqlite
 
 *.pyc
 
-.idea/vcs.xml
-
-.idea/modules.xml
-
-.idea/misc.xml
-
-.idea/inspectionProfiles/Project_Default.xml
-
-.idea/inspectionProfiles/profiles_settings.xml
-
-.idea/czgov-jobs.iml
-
-.idea/czgov-jobs.iml
-
-.idea/vcs.xml
-
-.idea/czgov-jobs.iml
-
-.idea/encodings.xml
-
-.idea/inspectionProfiles/profiles_settings.xml
-
-.idea/inspectionProfiles/Project_Default.xml
-
-.idea/misc.xml
-
-.idea/modules.xml
-
-.idea/czgov-jobs.iml
-
-.idea/czgov-jobs.iml
+.idea/
