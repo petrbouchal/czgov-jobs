@@ -22,9 +22,9 @@ paramsjson = {
             "fullname": "Ministerstvo průmyslu a obchodu",
             "abbrev" : "MPO",
             "abbrevcz": "MPO",
-            "jobsurl": "http://www.mpo.cz/dokument61716.html",
+            "jobsurl": "http://www.mpo.cz/cz/rozcestnik/ministerstvo/pracovni-prilezitosti/",
             "jobtitledata" : {
-                "itemselect": "div#text ul a",
+                "itemselect": "div#prehled h3 a",
                 "additionaltitletext" : False
             },
             "separateurl": False,
@@ -72,9 +72,9 @@ paramsjson = {
             "fullname": "Ministerstvo dopravy",
             "abbrev" : "MD",
             "abbrevcz": "MD",
-            "jobsurl": "http://www.mdcr.cz/cs/Nabidka-zamestnani/nz.htm",
+            "jobsurl": "http://www.mdcr.cz/Services/GetOffersAsync?culture=cs-CZ&items=200",
             "jobtitledata" : {
-                "itemselect": "div.innermenubottom div.postings a",
+                "itemselect": "div.j-ajax-result li.j-stat-item a.ui-block",
                 "additionaltitletext" : False
             },
             "separateurl": False,
@@ -222,7 +222,7 @@ paramsjson = {
             "abbrevcz": "MPSV",
             "jobsurl": "http://www.mpsv.cz/cs/22466",
             "jobtitledata" : {
-                "itemselect": "div#articlebody div#toc ul li a",
+                "itemselect": "div#toc ul li a",
                 "additionaltitletext" : False
             },
             "separateurl": False,
@@ -288,15 +288,12 @@ paramsjson = {
             "fullname" : "Úřad práce",
             "abbrev" : "UP",
             "abbrevcz" : "ÚP",
-            "jobsurl" : "http://portal.mpsv.cz/upcr/vmnaup",
+            "jobsurl" : "http://portal.mpsv.cz/web/upcr-kariera",
             "jobtitledata" : {
-                "itemselect" : "div.region h4.nadpisRad",
+                "itemselect" : "table.volne-misto a",
                 "additionaltitletext" : False
             },
-            "separateurl" : True,
-            "joburldata" : {
-                "itemselect" : "div.region div div div[id] a.OKdistinct2.noPrint"
-            },
+            "separateurl" : False,
             "paginate" : False
         },
     "FS" :
@@ -321,14 +318,14 @@ paramsjson = {
             "fullname" : "Nejvyšší kontrolní úřad",
             "abbrev" : "NKU",
             "abbrevcz" : "NKÚ",
-            "jobsurl" : "http://nku.cz/cz/kariera/nabidka-volnych-pracovnich-mist.htm",
+            "jobsurl" : "https://nku.cz/cz/o-nas/kariera/",
             "jobtitledata" : {
-                "itemselect" : "div#mother div#stredni h3 a",
+                "itemselect" : "section.article-list article a h2",
                 "additionaltitletext" : False
             },
-            "separateurl" : False,
+            "separateurl" : True,
             "joburldata" : {
-                "itemselect" : ""
+                "itemselect" : "section.article-list article a"
             },
             "paginate" : False
         },
