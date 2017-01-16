@@ -58,7 +58,7 @@ paramsjson = {
             "abbrevcz": "ÚV",
             "jobsurl": "http://www.vlada.cz/scripts/detail.php?pgid=445",
             "jobtitledata" : {
-                "itemselect": "div#content div.content-main a",
+                "itemselect": "div#content div.content-main h2.nomargin > a",
                 "additionaltitletext" : False
             },
             "separateurl": False,
