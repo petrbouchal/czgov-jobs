@@ -22,7 +22,7 @@ print(bs4.__version__)
 activedepts = ['MPO', 'MPSV', 'UV', 'MSMT', 'MMR-P', 'MMR-S', 'MV', 'MZe',
                'MO', 'MD', 'MZV', 'CSSZ','FS','UP','NKU','CzechInvest','CS-P','CS-S','CS-S2',
                'CSI']
-# activedepts = ['CSI']
+# activedepts = ['MMR-P']
 
 jobsallbodies = []
 for dept in activedepts:
