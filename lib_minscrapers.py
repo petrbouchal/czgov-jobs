@@ -7,7 +7,8 @@ def open_withcookies(urltouse):
     cj = cookielib.CookieJar()
     opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
     request = urllib2.Request(url=urltouse, headers={
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'})
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'User-agent': 'Mozilla/5.0 (Linux i686)'})
     r = opener.open(request)
     return r
 
